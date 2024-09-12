@@ -1,0 +1,276 @@
+header{
+    color: aliceblue;
+    background-color: #46a679;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-weight: normal;
+    font-size: large;
+}
+footer {
+    background-color: #46a679;
+    color: aliceblue;
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%; /* Ensures the footer takes full width */
+    box-sizing: border-box; /* Includes padding in width calculations */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px; /* Adjust to prevent overflow */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Ensures ul takes up full width */
+    box-sizing: border-box;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+footer ul li h2 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: aliceblue;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    color: #cfcfcf;
+    margin: 0; /* Remove any margin that could cause overflow */
+}
+/* 
+
+.homepage-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.homepage-menu .card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.homepage-menu h5{
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.dishcard{
+    display: inline-flex;
+    justify-content:center ;
+    align-items: center;
+} */
+
+/* .card{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.shakescard{
+    display: flex;
+
+} */
+
+
+
+.homepage-menu {
+    display: flex;
+    justify-content: flex-start; /* Align cards to the start */
+    align-items: center;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent cards from wrapping */
+    padding: 10px 0;
+}
+
+.homepage-menu .dishcard {
+    display: inline-flex;
+    justify-content: flex-start; /* Ensure cards align from the left */
+    align-items: center;
+    flex-wrap: nowrap; /* Prevent wrapping of cards */
+}
+
+.homepage-menu .card {
+    flex: 0 0 auto; /* Ensure cards do not shrink */
+    width: 150px;
+    margin-right: 10px;
+    
+}
+.homepage-menu h5{
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    font-size: small;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .homepage-menu {
+        overflow-x: auto; /* Scrollable on small screens */
+    }
+    .dishcard {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+}
+
+
+
+.dishcard {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scroll */
+    white-space: nowrap; /* Prevent cards from stacking vertically */
+  }
+
+  .card {
+    min-width: 150px; /* Ensure cards have a fixed width */
+    margin: 10px; /* Spacing between cards */
+  }
+
+  /* Hide scrollbar for better look (optional) */
+  .dishcard::-webkit-scrollbar {
+    display: none;
+  }
+
+  .dishcard {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /* Adjustments for mobile view */
+  @media (max-width: 768px) {
+    .homepage-menu {
+      justify-content: flex-start; /* Align cards to the left */
+    }
+  }
+
+
+
+.accordion-body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px; /* Space between cards */
+}
+
+.shakescards .card {
+   
+    flex: 0 0 150px; /* Fixed width for cards */
+    max-width: 150px;
+}
+
+.card-img-top {
+    height: 80px; /* Fixed height for images */
+    object-fit: cover; /* Ensure images cover the card area */
+}
+
+.card-body {
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.tc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.card {
+    width: 15rem; /* Adjust the width of the cards */
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+}
+.cs{
+    display: flex;
+    justify-content: center;
+}
+.cs ul{
+    padding: 0px 100px 0px 100px;
+    list-style-type: none;
+}
+
+
+

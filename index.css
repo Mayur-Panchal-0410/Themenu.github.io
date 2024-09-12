@@ -1,0 +1,124 @@
+header {
+    color: aliceblue;
+    background-color: #46a679;
+    font-weight: normal;
+
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    cursor: auto;
+  }
+  
+  a:link:active, a:visited:active {
+    color: black;
+  }
+  
+
+.card {
+    border: 5px solid white;
+    padding-top: 0px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge the card on hover */
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container button {
+    margin: 10px;
+}
+
+footer {
+    background-color: #46a679;
+    /* background-color: #332f2d; */
+    color: aliceblue;
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+    /* Ensures the footer takes full width */
+    box-sizing: border-box;
+    /* Includes padding in width calculations */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* Adjust to prevent overflow */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* Ensures ul takes up full width */
+    box-sizing: border-box;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+footer ul li h2 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: aliceblue;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    color: #cfcfcf;
+    margin: 0;
+    /* Remove any margin that could cause overflow */
+}
+
+/* Extra care with media queries for small screens */
+@media only screen and (max-width: 812px) {
+    .footer-container {
+        padding: 0 5px;
+        /* Reduce padding on smaller screens */
+    }
+}
+
+
+
+
