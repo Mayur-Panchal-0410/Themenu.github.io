@@ -253,12 +253,12 @@ menuchinesestarter += ` </div>
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body shakescards">`;
                         var chineseplainArr =[
-                            { "name": "Veg Lolipop Half (4 piece)", "price": 95, "imgPath": "Cafe2images/Chinese starter/Chilly Chinese/IMG_6038.jpeg" },
-                            { "name": "Veg Lolipop (8 piece)", "price": 140, "imgPath": "Cafe2images/Chinese starter/Chilly Chinese/IMG_6068.JPG" },
-                            { "name": "Manchurian", "price": 110, "imgPath": "Cafe2images/Chinese starter/Chilly Chinese/IMG_6039.jpeg" },
-                            { "name": "Veg Noodles", "price": 120, "imgPath": "Cafe2images/Chinese starter/Chilly Chinese/IMG_6041.jpeg" },
-                            { "name": "Hakka Noodles", "price": 140, "imgPath": "Cafe2images/Chinese starter/Chilly Chinese/IMG_6040.jpeg" },
-                            { "name": "Mashroom Chilli", "price": 160, "imgPath": "Cafe2images/Chinese starter/Chilly Chinese/IMG_6069.JPG" }
+                            { "name": "Veg Lolipop Half (4 piece)", "price": 95, "imgPath": "Cafe2images/Chinese starter/Chilly chinese/IMG_6038.jpeg" },
+                            { "name": "Veg Lolipop (8 piece)", "price": 140, "imgPath": "Cafe2images/Chinese starter/Chilly chinese/IMG_6068.JPG" },
+                            { "name": "Manchurian", "price": 110, "imgPath": "Cafe2images/Chinese starter/Chilly chinese/IMG_6039.jpeg" },
+                            { "name": "Veg Noodles", "price": 120, "imgPath": "Cafe2images/Chinese starter/Chilly chinese/IMG_6041.jpeg" },
+                            { "name": "Hakka Noodles", "price": 140, "imgPath": "Cafe2images/Chinese starter/Chilly chinese/IMG_6040.jpeg" },
+                            { "name": "Mashroom Chilli", "price": 160, "imgPath": "Cafe2images/Chinese starter/Chilly chinese/IMG_6069.JPG" }
                         ]
                         for (let i = 0; i < chineseplainArr.length; i++) {
                             menuchinesestarter += `<div class="card">
