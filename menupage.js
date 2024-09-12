@@ -501,20 +501,20 @@ menuimc += `
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body shakescards">`;
                         var riceandpulaoArr = [
-                            { "name": "Plain Rice", "price": 70, "imgPath": "Cafe2images/Imc/RiceandPulao/IMG_6001.jpeg" },
-                            { "name": "Zeera Rice", "price": 90, "imgPath": "Cafe2images/Imc/RiceandPulao/IMG_6004.jpeg" },
-                            { "name": "Khichdi", "price": 100, "imgPath": "Cafe2images/Imc/RiceandPulao/IMG_6003.jpeg" },
-                            { "name": "Masala Rice", "price": 115, "imgPath": "Cafe2images/Imc/RiceandPulao/IMG_6002.jpeg" },
-                            { "name": "Fried Rice", "price": 115, "imgPath": "Cafe2images/Imc/RiceandPulao/IMG_6005.jpeg" },
-                            { "name": "Lemon Rice", "price": 115, "imgPath": "Cafe2images/Imc/RiceandPulao/IMG_6006.jpeg" },
-                            { "name": "Tomato Rice", "price": 115, "imgPath": "Cafe2images/Imc/RiceandPulao/IMG_6007.jpeg" },
-                            { "name": "Veg Biryani", "price": 135, "imgPath": "Cafe2images/Imc/RiceandPulao/IMG_6008.jpeg" },
-                            { "name": "Sechzwan Fried Rice", "price": 145, "imgPath": "Cafe2images/Imc/RiceandPulao/IMG_6004.jpeg" },
-                            { "name": "Butter Khichdi", "price": 130, "imgPath": "Cafe2images/Imc/RiceandPulao/butterkhicdi.webp" },
-                            { "name": "Veg Pulao", "price": 125, "imgPath": "Cafe2images/Imc/RiceandPulao/IMG_6003.jpeg" },
-                            { "name": "Kashmiri Pulao", "price": 135, "imgPath": "Cafe2images/Imc/RiceandPulao/kp.webp" },
-                            { "name": "Shahi Pulao", "price": 150, "imgPath": "Cafe2images/Imc/RiceandPulao/sahipulao.webp" },
-                            { "name": "Mutter Pulao", "price": 140, "imgPath": "Cafe2images/Imc/RiceandPulao/mutterpulao.jpg" }
+                            { "name": "Plain Rice", "price": 70, "imgPath": "Cafe2images/Imc/Riceandpulao/IMG_6001.jpeg" },
+                            { "name": "Zeera Rice", "price": 90, "imgPath": "Cafe2images/Imc/Riceandpulao/IMG_6004.jpeg" },
+                            { "name": "Khichdi", "price": 100, "imgPath": "Cafe2images/Imc/Riceandpulao/IMG_6003.jpeg" },
+                            { "name": "Masala Rice", "price": 115, "imgPath": "Cafe2images/Imc/Riceandpulao/IMG_6002.jpeg" },
+                            { "name": "Fried Rice", "price": 115, "imgPath": "Cafe2images/Imc/Riceandpulao/IMG_6005.jpeg" },
+                            { "name": "Lemon Rice", "price": 115, "imgPath": "Cafe2images/Imc/Riceandpulao/IMG_6006.jpeg" },
+                            { "name": "Tomato Rice", "price": 115, "imgPath": "Cafe2images/Imc/Riceandpulao/IMG_6007.jpeg" },
+                            { "name": "Veg Biryani", "price": 135, "imgPath": "Cafe2images/Imc/Riceandpulao/IMG_6008.jpeg" },
+                            { "name": "Sechzwan Fried Rice", "price": 145, "imgPath": "Cafe2images/Imc/Riceandpulao/IMG_6004.jpeg" },
+                            { "name": "Butter Khichdi", "price": 130, "imgPath": "Cafe2images/Imc/Riceandpulao/butterkhicdi.webp" },
+                            { "name": "Veg Pulao", "price": 125, "imgPath": "Cafe2images/Imc/Riceandpulao/IMG_6003.jpeg" },
+                            { "name": "Kashmiri Pulao", "price": 135, "imgPath": "Cafe2images/Imc/Riceandpulao/kp.webp" },
+                            { "name": "Shahi Pulao", "price": 150, "imgPath": "Cafe2images/Imc/Riceandpulao/sahipulao.webp" },
+                            { "name": "Mutter Pulao", "price": 140, "imgPath": "Cafe2images/Imc/Riceandpulao/mutterpulao.jpg" }
                           ]
                         
                         for (let i = 0; i < riceandpulaoArr.length; i++) {
