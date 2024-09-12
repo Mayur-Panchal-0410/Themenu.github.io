@@ -546,7 +546,7 @@ menuimc += `
                                 { "name": "Dal Plain", "price": 80, "imgPath": "Cafe2images/Imc/Dal/IMG_5995.jpeg" },
                                 { "name": "Dal Fry", "price": 90, "imgPath": "Cafe2images/Imc/Dal/IMG_5996.jpeg" },
                                 { "name": "Dal Hari Mirchi", "price": 90, "imgPath": "Cafe2images/Imc/Dal/IMG_5994.jpeg" },
-                                { "name": "Dal Tadka", "price": 120, "imgPath": "Cafe2images/Imc/Dal/daltadka.jpg" },
+                                { "name": "Dal Tadka", "price": 120, "imgPath": "Cafe2images/Imc/Dal/Daltadka.jpg" },
                                 { "name": "Dal Khada Masala", "price": 115, "imgPath": "Cafe2images/Imc/Dal/IMG_5997.jpeg" },
                                 { "name": "Dal Punjabi", "price": 115, "imgPath": "Cafe2images/Imc/Dal/punjabdal.jpg" },
                                 { "name": "Dal Khati Mithi", "price": 125, "imgPath": "Cafe2images/Imc/Dal/dakkm.jpg" },
